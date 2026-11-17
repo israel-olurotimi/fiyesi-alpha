@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
+<meta name="theme-color" content="#FAF0DE">
+<title>Fiyesi</title>
+<meta name="description" content="Know how your shop is doing.">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./ui/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="./ui/apple-touch-icon.png">
+<link rel="stylesheet" href="./fiyesi.css">
+<!-- Shared classic scripts, as in the current app: money rules and the icon set. -->
+<script src="./packages/domain/core.js"></script>
+<script src="./ui/icons.js"></script>
+<script>globalThis.FIYESI_NO_BOOT=true</script>
+</head>
+<body><main class="phone-frame staging-frame" id="root" aria-label="Fiyesi"></main><script type="module" src="./main.js"></script><script>if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));</script></body>
+</html>
