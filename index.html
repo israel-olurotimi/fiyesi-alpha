@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"><script>if(location.protocol==='http:'&&!/^(localhost|127\.)/.test(location.hostname))location.replace('https:'+location.href.slice(5));</script>
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, interactive-widget=resizes-content">
 <meta name="theme-color" content="#FAF0DE">
 <title>Fiyesi</title>
@@ -14,6 +14,9 @@
 <script src="./packages/domain/core.js"></script>
 <script src="./ui/icons.js"></script>
 <script>globalThis.FIYESI_NO_BOOT=true</script>
-<script>document.addEventListener('error',function(e){var i=e.target;if(!(i instanceof HTMLImageElement))return;var s=i.getAttribute('src')||'';if(!/\/ui\/(scene|intros|avatars)\//.test(s))return;var n=+(i.dataset.retried||0);if(n>=2)return;i.dataset.retried=n+1;setTimeout(function(){i.src=s.replace(/[?&]r=\d+/,'')+(s.indexOf('?')<0?'?':'&')+'r='+Date.now();},600*(n+1));},true);</script></head>
+<script>(function(){var V="9de3d56050",P=/\/ui\/(scene|intros|avatars)\//;
+function fix(i){var s=i.getAttribute('src')||'';if(P.test(s)&&s.indexOf('v='+V)<0)i.setAttribute('src',s+(s.indexOf('?')<0?'?':'&')+'v='+V);}
+new MutationObserver(function(ms){ms.forEach(function(m){if(m.type==='attributes')return fix(m.target);m.addedNodes.forEach(function(n){if(n.nodeType!==1)return;if(n.tagName==='IMG')fix(n);n.querySelectorAll&&n.querySelectorAll('img').forEach(fix);});});}).observe(document.documentElement,{subtree:true,childList:true,attributes:true,attributeFilter:['src']});
+document.addEventListener('error',function(e){var i=e.target;if(!(i instanceof HTMLImageElement))return;var s=i.getAttribute('src')||'';if(!P.test(s))return;var n=+(i.dataset.retried||0);if(n>=2)return;i.dataset.retried=n+1;setTimeout(function(){i.setAttribute('src',s.replace(/[?&]r=\d+/,'')+'&r='+Date.now());},600*(n+1));},true);})();</script></head>
 <body><main class="phone-frame staging-frame" id="root" aria-label="Fiyesi"></main><script type="module" src="./main.js"></script><script>if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));</script></body>
 </html>
