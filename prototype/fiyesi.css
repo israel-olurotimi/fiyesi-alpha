@@ -1593,6 +1593,12 @@ textarea.text-field{resize:vertical;min-height:84px;font:inherit}
 .owner-screen:not(.till-mode)>.owner-scroll{padding-bottom:calc(112px + env(safe-area-inset-bottom))}
 .kb-open .owner-screen:not(.till-mode)>.owner-bottom-nav{display:none}
 .kb-open .owner-screen:not(.till-mode)>.owner-scroll{padding-bottom:24px}
+/* The list search (decision 40) floats just above the tab bar, never under it (115); with the keyboard open it sits at the bottom. */
+.owner-screen.has-search:not(.till-mode)>.search-dock{position:absolute;left:12px;right:12px;bottom:calc(max(14px,env(safe-area-inset-bottom)) + 96px);z-index:19;padding:0;background:none;box-shadow:none}
+.owner-screen.has-search:not(.till-mode)>.search-dock .sell-search{background:var(--f-semantic-surface);border:2px solid var(--f-semantic-text);border-radius:var(--f-radius-full);box-shadow:var(--f-elev-nav)}
+.owner-screen.has-search:not(.till-mode)>.owner-scroll{padding-bottom:calc(192px + env(safe-area-inset-bottom))}
+.kb-open .owner-screen.has-search:not(.till-mode)>.search-dock{bottom:8px}
+.kb-open .owner-screen.has-search:not(.till-mode)>.owner-scroll{padding-bottom:88px}
 .owner-bottom-nav .owner-nav-item{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:60px;padding:0;color:var(--f-semantic-textMuted)}
 .owner-bottom-nav .owner-nav-item::before{display:none!important}
 .owner-bottom-nav .owner-nav-item span{font-size:12px;font-weight:700;line-height:1.1}
@@ -1616,6 +1622,8 @@ textarea.text-field{resize:vertical;min-height:84px;font:inherit}
 @media (min-width:1000px),(min-width:800px) and (orientation:landscape){
 .owner-screen:not(.till-mode)>.owner-bottom-nav{position:static;height:auto;border:0;border-right:1px solid var(--f-semantic-border);border-radius:0;box-shadow:none;display:flex;padding:20px 8px}
 .owner-screen:not(.till-mode)>.owner-scroll{padding-bottom:40px}
+.owner-screen.has-search:not(.till-mode)>.search-dock{position:static}
+.owner-screen.has-search:not(.till-mode)>.owner-scroll{padding-bottom:40px}
 .owner-bottom-nav .owner-nav-sell .till-btn{margin-top:0}
 }
 /* end floating tab bar */
