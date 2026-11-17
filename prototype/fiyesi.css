@@ -179,7 +179,7 @@ body,button,input,select,textarea{font-family:var(--type-body)}
 .owner-stat{background:var(--f-semantic-surface);border:1px solid var(--f-semantic-border);border-radius:12px;padding:14px 12px;min-width:0;min-height:121px;display:flex;flex-direction:column}
 .owner-stat-label{color:var(--f-semantic-textMuted);min-height:18px}
 .owner-stat strong{font-size:18px;letter-spacing:-.035em;line-height:1.22;margin:7px 0 5px;overflow-wrap:anywhere}
-.owner-stat small{font-size:11px;color:var(--f-semantic-textMuted);line-height:1.35;margin-top:auto}
+.owner-stat small{font-size:12px;color:var(--f-semantic-textMuted);line-height:1.35;margin-top:auto}
 .owner-section{margin:23px 0 0}
 .owner-section-title{display:flex;justify-content:space-between;gap:10px;align-items:flex-start;margin-bottom:13px}
 .owner-section-title h2,.owner-section>h2{margin:0;font-size:19px;letter-spacing:-.03em;line-height:1.25}
@@ -187,13 +187,13 @@ body,button,input,select,textarea{font-family:var(--type-body)}
 .owner-empty{padding:22px 18px;display:flex;align-items:center;flex-direction:column;text-align:center;gap:7px;color:var(--f-semantic-textMuted)}
 .owner-empty strong{font-size:14px;color:var(--f-semantic-text)}
 .owner-empty span{font-size:12px;line-height:1.5;max-width:260px}
-.owner-demo-notice{margin-top:23px;font-size:11px;line-height:1.45;color:var(--f-semantic-textMuted);text-align:center;padding:7px 9px}
+.owner-demo-notice{margin-top:23px;font-size:12px;line-height:1.45;color:var(--f-semantic-textMuted);text-align:center;padding:7px 9px}
 .owner-bottom-nav{flex:none;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));padding:8px 6px max(9px,env(safe-area-inset-bottom))}
 .owner-nav-item{border:0;background:transparent;flex-direction:column;justify-content:center;padding:4px 1px;position:relative}
 .owner-nav-item span{line-height:1.15}
 .owner-nav-item.current:before{content:'';position:absolute;top:-9px;left:calc(50% - 12px);width:24px;height:3px;background:var(--f-semantic-accent);border-radius:0 0 3px 3px}
 .owner-surface{padding:21px 19px;border-radius:14px;background:var(--f-semantic-surface);border:1px solid var(--f-semantic-border);box-shadow:0 2px 0 rgba(52,40,32,.22)}
-.owner-surface-label{letter-spacing:.1em;font-size:10px;font-weight:850;color:var(--f-semantic-textMuted)}
+.owner-surface-label{letter-spacing:.1em;font-size:12px;font-weight:850;color:var(--f-semantic-textMuted)}
 .owner-surface-big{display:block;font-size:27px;letter-spacing:-.045em;margin:12px 0 6px;line-height:1.2}
 .owner-surface p{font-size:13px;color:var(--f-semantic-textMuted);line-height:1.55;margin:0}
 .owner-outline{width:100%;display:flex;align-items:center;justify-content:center;gap:11px}
@@ -215,7 +215,7 @@ body,button,input,select,textarea{font-family:var(--type-body)}
 .owner-local-sale{display:flex;align-items:center;gap:10px;justify-content:space-between;border:1px solid var(--f-semantic-border);background:var(--f-semantic-surface);border-radius:11px;padding:13px 12px;margin-top:9px;min-width:0}
 .owner-local-sale-info{flex:1;min-width:0}
 .owner-local-sale-info strong{font-weight:800;font-size:17px}
-.owner-local-sale-info small{display:block;font-size:11px;color:var(--f-semantic-textMuted);margin:4px 0 6px;line-height:1.42;overflow-wrap:anywhere}
+.owner-local-sale-info small{display:block;font-size:12px;color:var(--f-semantic-textMuted);margin:4px 0 6px;line-height:1.42;overflow-wrap:anywhere}
 .local-policy{line-height:1.5}
 .owner-section .owner-outline+.owner-outline{margin-top:10px}
 .local-policy{margin:8px 0 12px}
@@ -689,7 +689,7 @@ button{-webkit-tap-highlight-color:transparent}
 .stock-chip em{display:inline-grid;place-items:center;min-width:20px;height:20px;margin-left:6px;padding:0 6px;border-radius:var(--f-radius-full);background:var(--f-semantic-surfaceMuted);color:var(--f-semantic-textMuted);font-style:normal;font-size:12px;font-weight:800}
 .stock-chip[aria-pressed="true"],.stock-chip[aria-checked="true"]{background:var(--f-semantic-action);border-color:transparent;color:var(--f-semantic-actionText);box-shadow:none}
 .stock-chip[aria-pressed="true"] em{background:rgba(247,242,233,.18);color:var(--f-semantic-actionText)}
-.opt{margin-left:8px;padding:2px 8px;border-radius:var(--f-radius-full);background:var(--f-semantic-surfaceMuted);color:var(--f-semantic-textMuted);font-size:11px;font-weight:800;letter-spacing:.01em;vertical-align:middle}
+.opt{margin-left:8px;padding:2px 8px;border-radius:var(--f-radius-full);background:var(--f-semantic-surfaceMuted);color:var(--f-semantic-textMuted);font-size:12px;font-weight:800;letter-spacing:.01em;vertical-align:middle}
 .mini-tag{font-weight:800}
 label{font-size:14px;font-weight:700;color:var(--f-semantic-text)}
 .text-field,select.text-field,.text-field[type]{min-height:52px;padding:0 14px;border:1px solid var(--f-semantic-borderStrong);border-radius:var(--f-radius-md);background:var(--f-semantic-surface);color:var(--f-semantic-text);font-size:16px;font-weight:600;box-shadow:none}
@@ -706,7 +706,7 @@ label{font-size:14px;font-weight:700;color:var(--f-semantic-text)}
 .sec-head{margin:28px 2px 12px}
 .owner-bottom-nav{background:var(--f-semantic-surface);border-top:0;box-shadow:var(--f-elev-nav);padding:8px 8px max(10px,env(safe-area-inset-bottom))}
 .owner-nav-item{color:var(--f-semantic-textMuted)}
-.owner-nav-item span{font-size:11px;font-weight:700}
+.owner-nav-item span{font-size:12px;font-weight:700}
 .owner-nav-item.current{color:var(--f-semantic-text)}
 .owner-nav-item.current:not(.owner-nav-sell)::before{content:"";position:absolute;top:-8px;width:22px;height:3px;border-radius:3px;background:var(--f-semantic-text)}
 .owner-nav-sell{overflow:visible}
@@ -750,6 +750,9 @@ button.cell:active{background:var(--f-semantic-surfaceMuted)}
 .cell-switch .switch{grid-row:1/3;grid-column:2}
 .disc{background:var(--f-semantic-surface);border:1px solid var(--f-semantic-border);border-radius:var(--f-radius-lg);box-shadow:var(--f-elev-1);margin:6px 0 10px;overflow:hidden}
 .disc>summary{list-style:none;display:grid;grid-template-columns:40px minmax(0,1fr) auto;gap:2px 14px;align-items:center;padding:14px 16px;cursor:pointer;min-height:64px}
+/* The tile and the chevron sit at the top when the question wraps, so nothing floats in the middle (owner, 17 Nov). */
+.disc .cell-tile{align-self:start}.disc .disc-chev{align-self:start;margin-top:10px}
+.disc .cell-title{line-height:1.3}.disc .cell-sub .opt{margin:0 6px 0 0;vertical-align:1px}
 .disc>summary::-webkit-details-marker{display:none}
 .disc .cell-tile{grid-row:1/3}
 .disc-chev{grid-row:1/3;grid-column:3;color:var(--f-semantic-textMuted);transition:transform var(--f-motion-feedback) ease}
@@ -801,7 +804,8 @@ button.cell:active{background:var(--f-semantic-surfaceMuted)}
 .field-stack>*,.disc-body>*{min-width:0}
 .amount-field,.field-stack input,.field-stack select{max-width:100%}
 .local-policy{display:flex;align-items:center;gap:12px}
-.disc-grid>div{display:grid;gap:6px;align-content:start}
+/* Fields side by side line up on their bottom edge when one label wraps to two lines (owner, 17 Nov). */
+.disc-grid>div{display:grid;gap:6px;align-content:end}
 .disc-grid label{margin-top:0}
 .state-card{display:grid;justify-items:start;gap:8px;padding:20px;border-radius:var(--f-radius-xl);background:var(--f-semantic-surface);border:1px solid var(--f-semantic-border);box-shadow:var(--f-elev-1)}
 .state-ico{display:grid;place-items:center;width:56px;height:56px;border-radius:var(--f-radius-lg);background:var(--f-semantic-surfaceMuted)}
@@ -926,7 +930,7 @@ span.switch{display:block}
 .tk-line{display:grid;grid-template-columns:auto minmax(0,1fr) auto;align-items:center;gap:10px;font-family:var(--f-font-mono);font-size:13px;font-weight:500}
 .tk-name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .tk-amt{font-variant-numeric:tabular-nums}
-.tk-ws{font-family:var(--f-font-family);font-size:11px;font-weight:800;color:var(--f-ok-text)}
+.tk-ws{font-family:var(--f-font-family);font-size:12px;font-weight:800;color:var(--f-ok-text)}
 .tk-step{display:flex;align-items:center;gap:2px;background:var(--f-semantic-surfaceMuted);border-radius:var(--f-radius-full);padding:2px}
 .tk-step button{width:30px;height:30px;border-radius:50%;border:0;background:var(--f-semantic-surface);color:var(--f-semantic-text);display:grid;place-items:center;cursor:pointer}
 .tk-step button:disabled{opacity:.4}
@@ -970,7 +974,7 @@ span.switch{display:block}
 .pay-section{margin-top:22px}
 .pay-section h2,.pay-sec-head h2{display:flex;align-items:center;gap:8px;margin:0 0 10px;font-size:16px;font-weight:800}
 .pay-sec-head{display:flex;justify-content:space-between;align-items:center}
-.req{font-size:11px;font-weight:800;padding:3px 8px;border-radius:var(--f-radius-full);background:var(--f-owe-surface);color:var(--f-owe-text)}
+.req{font-size:12px;font-weight:800;padding:3px 8px;border-radius:var(--f-radius-full);background:var(--f-owe-surface);color:var(--f-owe-text)}
 .rc-mini{background:var(--f-counter-paper);border-radius:var(--f-radius-md);border:1px solid var(--f-counter-paperRule);padding:12px 14px;display:flex;flex-direction:column;gap:6px}
 .rc-line{display:flex;justify-content:space-between;gap:12px;font-family:var(--f-font-mono);font-size:13px}
 .rc-line span:first-child{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
@@ -2097,7 +2101,7 @@ select.pick-native{position:absolute!important;width:1px!important;height:1px!im
 .plan-price span{font-size:15px;color:var(--f-semantic-textMuted);font-weight:600}
 .plan-show .plan-periods{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:0}
 .plan-period{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px;min-height:52px;padding:6px;border:1.5px solid var(--f-semantic-border);border-radius:var(--f-radius-md);background:var(--f-semantic-surface);font-weight:700;font-size:14px;color:var(--f-semantic-text);cursor:pointer}
-.plan-period small{font-size:11px;font-weight:800;color:var(--f-ok-text)}
+.plan-period small{font-size:12px;font-weight:800;color:var(--f-ok-text)}
 .plan-period[aria-pressed="true"]{border-color:var(--f-semantic-text);box-shadow:inset 0 0 0 1px var(--f-semantic-text)}
 .plan-what{margin:2px 0 -4px;font-size:13px;font-weight:800;color:var(--f-semantic-textMuted);text-transform:none}
 .plan-feats{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px}
@@ -2130,6 +2134,10 @@ select.pick-native{position:absolute!important;width:1px!important;height:1px!im
 @media (max-width:599px){.tk-hold{padding:0}.tk-hold span{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}}
 .tk-bar .till-charge strong{white-space:nowrap}
 .tk-full{margin:6px 0 0;font-size:12px;color:var(--f-semantic-textMuted)}
+/* "+ Another customer" ends the ticket row (decision 166): puts this sale aside and starts one for the next person. */
+.tk-chip.add{align-content:center;border-style:dashed;background:none}
+.tk-chip.add:disabled{opacity:.5;cursor:default}
+.tk-row .tk-full{flex:none;align-self:center;margin:0;white-space:nowrap}
 .till-elsewhere{display:block;margin-top:4px;font-size:12px;font-weight:700;color:var(--f-semantic-attentionText)}
 .tk-note{display:grid;gap:4px;margin:0 0 8px;padding:10px 12px;border-radius:var(--f-radius-md);background:var(--f-semantic-attentionSurface);color:var(--f-semantic-attentionText)}
 .tk-note .hint-line{margin:0;color:inherit}
@@ -2153,7 +2161,8 @@ select.pick-native{position:absolute!important;width:1px!important;height:1px!im
 /* Clear the sale (owner, 16 Nov): at the top of the open ticket, Undo for 10 seconds */
 .tk-head{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:0 0 6px;position:sticky;top:0;z-index:1;background:var(--f-counter-paper)}
 .tk-head>span{font-size:14px;font-weight:700;color:var(--f-semantic-textMuted)}
-.tk-clearall{display:inline-flex;align-items:center;gap:6px;min-height:48px;padding:0 14px;border:1.5px solid var(--f-semantic-border);border-radius:var(--f-radius-full);background:var(--f-semantic-surface);color:var(--f-semantic-text);font:inherit;font-size:14px;font-weight:700;cursor:pointer}
+/* Clear the ticket (owner, 17 Nov: "I don't like the big clear button"): a quiet text button; the 48 px tap area stays. */
+.tk-clearall{display:inline-flex;align-items:center;gap:4px;min-height:48px;margin-right:-8px;padding:0 8px;border:0;border-radius:var(--f-radius-md);background:none;color:var(--f-semantic-textMuted);font:inherit;font-size:13px;font-weight:600;cursor:pointer}
 .tk-clearall:active{opacity:.85}
 /* Narrow phones: the ticket bar gives Charge room for the whole amount */
 @media (max-width:399px){.tk-toggle{padding:0 10px;font-size:14px;gap:4px}.tk-bar .till-charge{padding:0 12px;gap:8px}.tk-bar .till-charge strong{font-size:18px}}
