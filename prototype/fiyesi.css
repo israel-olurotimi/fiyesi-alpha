@@ -2214,6 +2214,13 @@ select.pick-native{position:absolute!important;width:1px!important;height:1px!im
 @media (max-width:399px){.tk-toggle{padding:0 10px;font-size:14px;gap:4px}.tk-bar .till-charge{padding:0 12px;gap:8px}.tk-bar .till-charge strong{font-size:18px}}
 @media (max-width:419px){.tk-bar .tk-hold~.till-charge{flex-direction:column;align-items:flex-start;justify-content:center;gap:0;padding:0 14px}.tk-bar .tk-hold~.till-charge span{font-size:13px;line-height:1.2;opacity:.85}.tk-bar .tk-hold~.till-charge strong{font-size:19px;line-height:1.15}}
 
+/* Selling on credit (decision 168): the ask card on Pay when credit is off or above the limit, and the limit chips in Shop rules. */
+.cr-ask{display:grid;gap:10px;margin:14px 0 0;padding:14px;border-radius:var(--f-radius-md);background:var(--f-owe-surface);color:var(--f-owe-text)}
+.cr-ask p{display:grid;gap:4px;margin:0;font-size:14px;line-height:1.4}
+.cr-ask p b{font-size:15px}
+.cr-ask .owner-outline{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:48px}
+.cr-limits{margin-top:8px}
+.home-credit .feed-row .feed-text b{white-space:normal}
 
 /* fonts.css */
 /* One family, Plus Jakarta Sans, for headlines and text (decision 106, 31 Oct 2026: replaces Manrope, which has no naira sign and no Yoruba tone marks). Self-hosted Latin, Latin-ext and Vietnamese subsets; the naira sign sits in the Latin file so it is always there. */
